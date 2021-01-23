@@ -3,7 +3,7 @@ basic.forever(function () {
     Reading = input.lightLevel()
     led.plotBarGraph(
     Reading,
-    255
+    600
     )
     if (input.buttonIsPressed(Button.A)) {
         basic.showNumber(Reading)
